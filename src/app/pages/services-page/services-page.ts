@@ -16,6 +16,9 @@ export class ServicesPage {
   }
 
   navigate() : void {
-    this.router.navigate(['/contact']);
+    const element = document.getElementById("contact");
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }  
   }
 }

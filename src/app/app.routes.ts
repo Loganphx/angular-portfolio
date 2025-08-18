@@ -7,9 +7,9 @@ import {ServicesPage} from './pages/services-page/services-page';
 
 export const routes: Routes = [
   {path: "", component: HomePage, pathMatch: "full"},
-  {path: "about-me", component: AboutMePage},
-  {path: "portfolio", component: PortfolioPage},
-  {path: "services", component: ServicesPage},
-  {path: "contact", component: ContactPage},
+  // {path: "about-me", component: AboutMePage},
+  // {path: "portfolio", component: PortfolioPage},
+  // {path: "services", component: ServicesPage},
+  // {path: "contact", component: ContactPage},
   {path: "*", redirectTo: ""}
 ];

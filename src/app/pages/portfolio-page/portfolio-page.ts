@@ -11,8 +11,8 @@ import {Button} from '../../components/button/button';
 })
 export class PortfolioPage {
 
-  doNothing(): void {
-    console.log('this implementation does nothing')
+  redirectTo(): void {
+    // window.open(url, '_blank');
   }
 
   protected readonly HTMLImageElement = HTMLImageElement;

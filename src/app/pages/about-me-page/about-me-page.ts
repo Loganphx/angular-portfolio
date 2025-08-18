@@ -28,6 +28,9 @@ export class AboutMePage {
   }
 
   navigate(): void {
-    this.router.navigate(['/portfolio']);
+    const element = document.getElementById("portfolio");
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 }
