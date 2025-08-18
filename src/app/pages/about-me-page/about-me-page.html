@@ -1,0 +1,19 @@
+<div class="wrapper">
+  <div class="about-me-section">
+    <div class="about-me-text">
+      <p id="section-introduction" class="small-paragraph">
+        {{introductionText}}
+      </p>
+      <h1 class="section-title">{{sectionTitle}}</h1>
+      <p class="about-me-section-paragraph">{{aboutMeParagraph1}}</p>
+      <p class="about-me-section-paragraph">{{aboutMeParagraph2}}</p>
+      <p class="about-me-section-paragraph">{{aboutMeParagraph3}}</p>
+      <app-button [buttonText]="buttonText" [buttonAction]="navigate"></app-button>
+    </div>
+    <div class="about-me-photo">
+      <img src="my-photo.png" alt=""/>
+      <div class="photo-overlay"></div>
+      <div class="offset-rectangle"></div>
+    </div>
+  </div>
+</div>

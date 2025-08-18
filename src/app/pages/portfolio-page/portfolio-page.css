@@ -1,0 +1,149 @@
+.portfolio-section {
+
+  min-width: 600px;
+
+  width: 60vw;
+
+}
+
+
+
+.portfolio-content {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+  flex-direction: row;
+
+  width: 100%;
+
+}
+
+
+
+.portfolio-container {
+
+  width: 100%;
+
+  margin-top: 1.5%;
+
+  min-height: 25vh;
+
+  margin-bottom: 4%;
+
+}
+
+
+
+.portfolio-container {
+
+  display: flex;
+
+  width: 100%;
+
+}
+
+
+
+.photo-container {
+
+  flex: 0 0 60%;
+
+  position: relative;
+
+}
+
+
+
+.photo-container img {
+
+  width: 100%;
+
+  height: auto;
+
+  border-radius: 8px;
+
+  display: block;
+
+  z-index: 2;
+
+  border: 2px solid white;
+
+}
+
+
+
+.photo-container:hover .photo-overlay {
+
+  opacity: 1;
+
+}
+
+
+
+.photo-container:hover img {
+
+  background-color: rgba(255, 255, 255, 0.2);
+
+  border: 2px solid #007bff;
+
+}
+
+
+
+.project-container {
+
+  flex: 1;
+
+  padding-left: 20px;
+
+}
+
+
+
+#converter .project-container {
+
+  padding-left: 0px;
+
+  padding-right: 20px;
+
+}
+
+
+
+.project-name {
+
+  font-family: "Roboto Mono", sans-serif;
+
+  color: #65ffd1;
+
+  font-size: 19px;
+
+}
+
+
+
+.project-title {
+
+  font-size: 36px;
+
+  color: #fff;
+
+  margin-bottom: 10px;
+
+}
+
+
+
+.project-description {
+
+  font-size: 18px;
+
+  color: #e2e2e2;
+
+  margin-bottom: 20px;
+
+}

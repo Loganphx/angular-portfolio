@@ -1,0 +1,14 @@
+<div class="wrapper">
+  <div class="introduction-section">
+    <p class="greeting-paragraph small-paragraph">{{greetingText}}</p>
+    <h1 class="my-name section-title">{{fullName}}</h1>
+    <h1 class="my-role section-title" id="my-role">{{roleText}}</h1>
+    <p class="introduction-section-paragraph">
+      {{introductionText}}
+    </p>
+    <app-button
+      [buttonText]="aboutMeButtonText"
+      [buttonAction]="navigate"
+    ></app-button>
+  </div>
+</div>
