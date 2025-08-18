@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://loganphx.github.io/angular-portfolio',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },
